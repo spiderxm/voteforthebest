@@ -35,13 +35,18 @@ public class MainActivity extends AppCompatActivity {
     {
         if(c>p)
         {
-            String a="Coca-cola wins the competetion as it gets "+c+" votes and pepsi gets "+p+"votes";
+            String a = "Coca-cola wins the competetion as it gets "+c+" votes and pepsi gets "+p+"votes.";
             disp(a);
+        }
+        else if(p>c)
+        {
+            String b = "Pepsi wins the competetion as it gets "+p+" votes and Coca-cola gets "+c+" votes.";
+            disp(b);
         }
         else
         {
-            String b="Pepsi wins the competetion as it gets "+p+" votes and Coca-cola gets "+c+" votes ";
-            disp(b);
+            String c = "Tie between Pepsi and Coca-cola as both get " + p + " votes.";
+            disp(c);
         }
     }
     private void display(int p)
