@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     {
         if(c>p)
         {
-            String a = "Coca-cola wins the competetion as it gets "+c+" votes and pepsi gets "+p+"votes.";
+            String a = "Coca-cola wins the competetion as it gets "+c+" votes and pepsi gets "+p+" votes.";
             disp(a);
         }
         else if(p>c)
